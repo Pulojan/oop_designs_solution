@@ -9,13 +9,7 @@ package oop_designs.part.a;
  *
  * @author Pulojan
  */
-public abstract class Animal implements MakeSound{
-    
-    void walk(){
-        System.out.println("I am walking");
-    }
-    
-    @Override
-    public abstract void sing();
+public class Animal{
+
     
 }

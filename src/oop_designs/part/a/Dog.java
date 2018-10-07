@@ -9,11 +9,9 @@ package oop_designs.part.a;
  *
  * @author Pulojan
  */
-public class Dog extends Animal{
-
-    @Override
-    public void sing() {
-        System.out.println("Woof, Woof");
+public class Dog extends Animal implements Sound{
+      @Override
+    public void sing(){
+        System.out.println("Woof , Woof");
     }
-    
 }

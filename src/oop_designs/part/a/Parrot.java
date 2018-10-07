@@ -5,15 +5,10 @@
  */
 package oop_designs.part.a;
 
-/**
- *
- * @author Pulojan
- * @param <T>
- */
-public class Parrot<T extends MakeSound> extends Bird{
-    private final T livingWith;
+public class Parrot extends Bird{
+    private final Sound livingWith;
     
-    public Parrot(T livingWith){
+    public Parrot(Sound livingWith){
         this.livingWith = livingWith;
     }
     

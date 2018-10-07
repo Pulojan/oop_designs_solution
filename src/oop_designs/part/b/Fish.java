@@ -3,17 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package oop_designs.part.a;
+package oop_designs.part.b;
+
+import oop_designs.part.a.Animal;
+import oop_designs.part.a.Swimmable;
 
 /**
  *
  * @author Pulojan
  */
-public class MobilePhone implements Sound{
-
+public class Fish extends Animal implements Swimmable{
+    
     @Override
-    public void sing() {
-        System.out.println("Ring...Ring...");
+    public void swim(){
+        System.out.println("I am swimming");
     }
- 
+    
 }

@@ -9,11 +9,6 @@ package oop_designs.part.a;
  *
  * @author Pulojan
  */
-public class MobilePhone implements Sound{
-
-    @Override
-    public void sing() {
-        System.out.println("Ring...Ring...");
-    }
- 
+public interface Sound {
+    public void sing();
 }

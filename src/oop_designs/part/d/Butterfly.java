@@ -3,17 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package oop_designs.part.a;
+package oop_designs.part.d;
+
+import oop_designs.part.a.Flyable;
 
 /**
  *
  * @author Pulojan
  */
-public class MobilePhone implements Sound{
+public class Butterfly extends CaterPillar implements Flyable{
 
     @Override
-    public void sing() {
-        System.out.println("Ring...Ring...");
+    public void fly() {
+        System.out.println("I am flying");
     }
- 
+    
 }

@@ -3,17 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package oop_designs.part.a;
+package oop_designs.part.b;
 
 /**
  *
  * @author Pulojan
  */
-public class MobilePhone implements Sound{
-
-    @Override
-    public void sing() {
-        System.out.println("Ring...Ring...");
-    }
- 
+public enum Size {
+    
+    SMALL, LARGE, MEDIUM
+    
 }

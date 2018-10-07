@@ -9,13 +9,19 @@ package oop_designs.part.a;
  *
  * @author Pulojan
  */
-public class Duck extends Bird{
+public class Duck extends Bird implements Swimmable,Flyable{
+   @Override
+   public void sing(){
+       System.out.println("Quack, Cluck");
+   }
+
     @Override
-    public void sing(){
-        System.out.println("Quack, Quack");
+    public void swim() {
+        System.out.println("I am swimming...");
     }
-    
-    public void swim(){
-        System.out.println("I am swimming");
+
+    @Override
+    public void fly() {
+        System.out.println("I am flying...");
     }
 }

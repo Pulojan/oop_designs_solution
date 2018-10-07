@@ -9,7 +9,7 @@ package oop_designs.part.a;
  *
  * @author Pulojan
  */
-public class Rooster extends Chicken{
+public class Rooster extends Chicken implements Sound{
     @Override
     public void sing(){
         System.out.println("Cock-a-doodle-do");

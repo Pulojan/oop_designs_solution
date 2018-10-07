@@ -9,14 +9,11 @@ package oop_designs.part.a;
  *
  * @author Pulojan
  */
-public class Bird extends Animal{
-    
-    void fly(){
-        System.out.println("I am flying");
-    }
-    
+public class Bird extends Animal implements Sound{
+
     @Override
-    public void sing(){
-        System.out.println("I am singing");
+    public void sing() {
+       System.out.println("I am making noise");
     }
+    
 }

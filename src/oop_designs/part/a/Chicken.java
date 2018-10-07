@@ -10,13 +10,8 @@ package oop_designs.part.a;
  * @author Pulojan
  */
 public class Chicken extends Bird{
-    @Override
-    public void sing(){
-        System.out.println("Cluck, Cluck");
-    }
-    
-    @Override
-    public void fly(){
-        System.out.println("Wings are disabled...");
-    }
+   @Override
+   public void sing(){
+       System.out.println("Cluck, Cluck");
+   }
 }
